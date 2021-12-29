@@ -1,0 +1,18 @@
+.header{
+    max-width: 1260px;
+    display: flex;
+    justify-content: flex-end;
+
+    grid-area: header;
+}
+.links{
+    list-style-type: none;
+    display: flex;
+    li{
+        padding: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: #939596;
+    }
+}

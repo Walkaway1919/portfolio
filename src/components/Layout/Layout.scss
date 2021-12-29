@@ -1,0 +1,18 @@
+.layout{
+    display: grid; 
+    grid-template-columns: auto minmax(375px, 1260px) auto; 
+    grid-template-rows: 70px 1fr 100px; 
+    gap: 80px 0px; 
+    grid-template-areas: 
+        ". header ."
+        ". layout ."
+        ". footer ."; 
+
+    padding: 80px 80px 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.main{
+    grid-area: layout;
+}
