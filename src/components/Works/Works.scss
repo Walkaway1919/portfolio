@@ -1,0 +1,10 @@
+.works{
+    &__message{
+        margin-bottom: 30px;
+    }
+
+    &__cards{
+        display: flex;
+        justify-content: space-between;
+    }
+}

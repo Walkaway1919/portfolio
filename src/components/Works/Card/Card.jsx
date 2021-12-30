@@ -1,12 +1,12 @@
 import './Card.scss';
-
-export const Card = ({ classNane, big = false }) => {
+import cn from 'classnames'
+export const Card = ({ className, big = false, description, name, link, img }) => {
     return <div className={cn("card", className, {["card--big"]: big})}>
             <picture className="card__image">
-                <img src=''></img>
+                <img src={img}></img>
             </picture>
-                <p className="card__name">название</p>
-                <p className="description">описание</p>
-                <a href="#"></a>
+                <p className="card__name">{name}</p>
+                <p className="card__description">{description}</p>
+                <a href={link}>ссылка</a>
             </div>
 }
