@@ -1,0 +1,15 @@
+.greeting{
+    display: flex;
+    width: 100%;
+    align-content: center;
+    &__bio{
+        flex: 1 1;
+        font-size: 17px;
+        line-height: 37px;
+    }
+    &__message{
+        flex: 1 1;
+        font-size: 36px;
+        line-height: 50px
+    }
+}

@@ -1,5 +1,17 @@
 .card{
     width: 360px;
+    &__name{
+        margin-top: 15px;
+        font-size: 20px;
+        line-height: 29px;
+        color: #090A0A;
+    }
+    &__description{
+        margin-top: 5px;
+        font-size: 17px;
+        line-height: 20px;
+        color: #7C7E80;
+    }
     &__image{
         img{
 

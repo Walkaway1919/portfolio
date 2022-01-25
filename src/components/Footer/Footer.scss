@@ -1,3 +1,19 @@
 .footer{
     grid-area: footer;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    &__message{
+        font-size: 17px;
+        line-height: 20px;
+        color: #1C17FF;
+    }
+    &__links{
+        display: flex;
+        
+        .tg{
+            margin-left: 20px;
+        }
+    }
 }

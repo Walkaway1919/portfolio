@@ -2,17 +2,17 @@
     max-width: 1260px;
     display: flex;
     justify-content: flex-end;
-
     grid-area: header;
 }
 .links{
     list-style-type: none;
     display: flex;
-    li{
+    a{  
+        cursor: pointer;
         padding:0 20px;
-    }
-    a{
         text-decoration: none;
         color: #939596;
+        font-size: 20px;
+line-height: 29px;
     }
 }
