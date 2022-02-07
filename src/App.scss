@@ -10,7 +10,10 @@ body {
 .main{}
 .layout{
   &__about{
-    margin-top: 100px;
+    margin-top: 10px;
+  }
+  &__skills{
+    margin-top: 60px;
   }
 
 }

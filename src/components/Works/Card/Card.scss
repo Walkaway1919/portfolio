@@ -1,5 +1,8 @@
 .card{
-    width: 360px;
+    width: 100%;
+    &--big{
+        width: 1000px;
+    }
     &__name{
         margin-top: 15px;
         font-size: 20px;
@@ -13,9 +16,25 @@
         color: #7C7E80;
     }
     &__image{
+            display: inline-block; 
+            overflow: hidden; 
+            cursor: pointer;
+            border-radius: 5px;
         img{
+            width: 100%;
+            transition: 1s; 
+            display: block; 
+            &:hover{
+                transform: scale(1.1)
+            }
+        }
+    }
 
-            width: 360px;
+    @media screen and (max-width: 800px) {
+        &:first-child &__image img{
+            max-height: 400px;
+            object-fit: cover;
+            object-position: top;
         }
     }
 }

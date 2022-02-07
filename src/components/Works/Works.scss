@@ -8,5 +8,20 @@
     &__cards{
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__card{
+        &--big{
+            width: 1000%;
+        }
+        width: calc( (100% - 40px) / 3);
+        @media screen and (max-width: 800px) {
+            width: calc( (100% - 40px) / 2);
+            &:first-child{
+                width: 100%;
+                margin-bottom: 40px;
+            }
+            
+        }
     }
 }

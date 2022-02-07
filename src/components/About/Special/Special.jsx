@@ -3,7 +3,8 @@ import './Special.scss';
 import cn from 'classnames';
 export const Special = ({className}) => {
     return <div className={cn("special", className)}>
+        <a name="about_me"></a>
         <img src={image} className='special__img'/>
-        <p className="special__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati necessitatibus est officia nihil illum reprehenderit sit in odit, sint unde similique. Tenetur voluptatum dolorem praesentium eligendi earum quas nulla nostrum.</p>
+        <p className="special__text">Я серьезно увлекаюсь историей, литературой и гаджетами. В свободное от работы время я читаю книги и решаю задачи на LitCode и CodeWars. Я коммуникабельна и открыта, люблю работать в команде.</p>
     </div>
 }
