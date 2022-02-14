@@ -1,7 +1,17 @@
 .card{
     width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    @media screen and (max-width: 800px) {
+        margin-bottom: 15px;
+    }
     &--big{
         width: 1000px;
+    }
+    &__info{
+        padding: 15px;
     }
     &__name{
         margin-top: 15px;
@@ -16,10 +26,9 @@
         color: #7C7E80;
     }
     &__image{
-            display: inline-block; 
-            overflow: hidden; 
             cursor: pointer;
             border-radius: 5px;
+            overflow: hidden;
         img{
             width: 100%;
             transition: 1s; 
@@ -38,3 +47,4 @@
         }
     }
 }
+

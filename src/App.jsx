@@ -17,8 +17,8 @@ function App() {
           <Skills />
         <AboutMe /> */}
           <About className={"layout__about"}/>
-        <Works />
           <Skills className={"layout__skills"}/>
+        <Works className={"layout__works"}/>
         </Main>
         <Special className='layout__special'/>
         <Footer className="layout__footer"/>

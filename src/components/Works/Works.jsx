@@ -6,8 +6,8 @@ import todoList from '../../assets/img/todolist.png'
 import blog from '../../assets/img/banking-app.png'
 import cn from 'classnames'
 
-export const Works = () => {
-    return <div className="works">
+export const Works = ({className}) => {
+    return <div className={cn(className, "works")}>
                 <a name="my_works"></a>
                 <p className="works__message">Это примеры моих работ</p>
                 <div className='works__cards'>
@@ -15,6 +15,8 @@ export const Works = () => {
                     <Card className="works__card" name='Memory game' description='Игра на запоминание с переворотом карточек. Сделана на React.js' img={cardGame}/>
                     <Card className="works__card" name='Todo list' description='Планировщик заданий с фильтрацией и drug-ang-drop на чистом JS' link='https://walkaway1919.github.io/todolist/' img={todoList}/>
                     <Card className={cn("works__card", ["works__card--big"])} big={true} name='Blog' description='Банковский блог на Next.js' img={blog}/>
+                    
                 </div>
+                
         </div>
 }

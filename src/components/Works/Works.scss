@@ -14,15 +14,26 @@
         &--big{
             width: 100%;
             margin-top: 30px;
+            @media screen and (max-width: 800px) {
+               margin-top: 0px;
+           }
         }
         width: calc( (100% - 40px) / 3);
         @media screen and (max-width: 800px) {
             width: calc( (100% - 40px) / 2);
-            &:first-child{
-                width: 100%;
-                margin-bottom: 40px;
-            }
+            // &:first-child{
+            //     width: 100%;
+            //     margin-bottom: 40px;
+            // }
             
         }
+        @media screen and (max-width: 600px) {
+         width: 100%;
+         // &:first-child{
+         //     width: 100%;
+         //     margin-bottom: 40px;
+         // }
+         
+     }
     }
 }
