@@ -10,6 +10,33 @@
     &--big{
         width: 1000px;
     }
+    // a{
+    //     display: block; 
+    //     position: relative; 
+    //     &::after{
+    //         content: ''; 
+    //         position: absolute; 
+    //         top: 0; 
+    //         left: 0; 
+    //         right: 0; 
+    //         bottom: 0; 
+    //         background: rgba(0,0,0,.5);  
+    //         opacity: 0;
+    //     }
+    //     &::before{
+    //         content: ''; 
+    //         position: absolute; 
+    //         top: 0; 
+    //         left: 0; 
+    //         right: 0; 
+    //         bottom: 0;  
+    //         opacity: 0;
+    //     }
+    // }
+
+    // a:hover:before,a:hover:after {
+    //      opacity: 1; 
+    // }
     &__info{
         padding: 15px;
     }
@@ -34,7 +61,7 @@
             transition: 1s; 
             display: block; 
             &:hover{
-                transform: scale(1.1)
+                transform: scale(1.1);
             }
         }
     }

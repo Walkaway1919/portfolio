@@ -6,7 +6,7 @@ export const Greeting = () => {
             <h2>Привет! <span>👋</span></h2>
         </div>
         <div className="greeting__bio">
-            <p>Меня зовут Юлия Кунашева и я Frontend разработчик Junior+ уровня.</p>
+            <p>Меня зовут Юлия Астахова и я Frontend разработчик Junior+ уровня.</p>
             <p>Мой стек:</p>
             <ul className='greeting-list'>
                 <li>JavaScript, TypeScript, CSS3, HTML5, Git</li>

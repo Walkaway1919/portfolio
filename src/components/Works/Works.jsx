@@ -12,9 +12,9 @@ export const Works = ({className}) => {
                 <p className="works__message">Это примеры моих работ</p>
                 <div className='works__cards'>
                     <Card className="works__card" name='Weather forecast' description='Прогноз погоды на React с использование API OpenWeatherMap API' img={weatherApp} link='https://walkaway1919.github.io/weather_report/'/>
-                    <Card className="works__card" name='Memory game' description='Игра на запоминание с переворотом карточек. Сделана на React.js' img={cardGame}/>
-                    <Card className="works__card" name='Todo list' description='Планировщик заданий с фильтрацией и drug-ang-drop на чистом JS' link='https://walkaway1919.github.io/todolist/' img={todoList}/>
-                    <Card className={cn("works__card", ["works__card--big"])} big={true} name='Blog' description='Банковский блог на Next.js' img={blog}/>
+                    <Card className="works__card" name='Memory game' description='Игра на запоминание с переворотом карточек. Сделана на React.js' img={cardGame} link='https://walkaway1919.github.io/card-game/'/>
+                    <Card className="works__card" name='Todo list' description='Планировщик заданий с фильтрацией и кастомной системой drug-ang-drop на ванильном JS' link='https://walkaway1919.github.io/todolist/' img={todoList}/>
+                    <Card className={cn("works__card", ["works__card--big"])} big={true} name='Blog' description='Банковский блог на Next.js в процессе разработки' img={blog}/>
                     
                 </div>
                 
