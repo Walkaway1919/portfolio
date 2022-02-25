@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.936da865.css",
+    "main.css": "/portfolio/static/css/main.2eebc2c3.css",
     "main.js": "/portfolio/static/js/main.9a0f81b2.js",
     "static/js/787.cb64ee8b.chunk.js": "/portfolio/static/js/787.cb64ee8b.chunk.js",
     "static/media/banking-app.png": "/portfolio/static/media/banking-app.b8b75f73feb3ddcd1ae3.png",
@@ -17,12 +17,12 @@
     "static/media/telegram_white.svg": "/portfolio/static/media/telegram_white.ed36c45a9bc16f6656bd0c9beb42b98f.svg",
     "static/media/css.svg": "/portfolio/static/media/css.a4dcbd6761537769082e898b2bd5f4a2.svg",
     "static/media/html.svg": "/portfolio/static/media/html.e7452f23531130972f35068d07672317.svg",
-    "main.936da865.css.map": "/portfolio/static/css/main.936da865.css.map",
+    "main.2eebc2c3.css.map": "/portfolio/static/css/main.2eebc2c3.css.map",
     "main.9a0f81b2.js.map": "/portfolio/static/js/main.9a0f81b2.js.map",
     "787.cb64ee8b.chunk.js.map": "/portfolio/static/js/787.cb64ee8b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.936da865.css",
+    "static/css/main.2eebc2c3.css",
     "static/js/main.9a0f81b2.js"
   ]
 }
