@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.936da865.css",
+    "main.js": "/portfolio/static/js/main.8980b15c.js",
+    "static/js/787.cb64ee8b.chunk.js": "/portfolio/static/js/787.cb64ee8b.chunk.js",
+    "static/media/banking-app.png": "/portfolio/static/media/banking-app.b8b75f73feb3ddcd1ae3.png",
+    "static/media/cardgame.png": "/portfolio/static/media/cardgame.3cf4236438c1362285aa.png",
+    "static/media/todolist.png": "/portfolio/static/media/todolist.16417e683f3fd706d38a.png",
+    "static/media/photo.jpg": "/portfolio/static/media/photo.4c598f61959af0f7e6ff.jpg",
+    "static/media/weather.jpg": "/portfolio/static/media/weather.d4a17c5e4ab756290f97.jpg",
+    "static/media/react.svg": "/portfolio/static/media/react.96e5e698fa6f918476eaeb8220961df4.svg",
+    "static/media/sass.svg": "/portfolio/static/media/sass.a8031134094cfdcef8c6b84f913f3909.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/js.svg": "/portfolio/static/media/js.366fd339d08d6c1caf8ad65891c39124.svg",
+    "static/media/linkedIn_white.svg": "/portfolio/static/media/linkedIn_white.782ad67e0aedd2cfd3df0a8faa750d48.svg",
+    "static/media/git.svg": "/portfolio/static/media/git.915dabdbc6c724c2369935e7e0fab240.svg",
+    "static/media/telegram_white.svg": "/portfolio/static/media/telegram_white.ed36c45a9bc16f6656bd0c9beb42b98f.svg",
+    "static/media/css.svg": "/portfolio/static/media/css.a4dcbd6761537769082e898b2bd5f4a2.svg",
+    "static/media/html.svg": "/portfolio/static/media/html.e7452f23531130972f35068d07672317.svg",
+    "main.936da865.css.map": "/portfolio/static/css/main.936da865.css.map",
+    "main.8980b15c.js.map": "/portfolio/static/js/main.8980b15c.js.map",
+    "787.cb64ee8b.chunk.js.map": "/portfolio/static/js/787.cb64ee8b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.936da865.css",
+    "static/js/main.8980b15c.js"
+  ]
+}
