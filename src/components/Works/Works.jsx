@@ -11,10 +11,10 @@ export const Works = ({className}) => {
                 <a name="my_works"></a>
                 <p className="works__message">Это примеры моих работ</p>
                 <div className='works__cards'>
-                    <Card className="works__card" name='Weather forecast' description='Прогноз погоды на React с использование API OpenWeatherMap API' img={weatherApp} link='https://walkaway1919.github.io/weather_report/'/>
-                    <Card className="works__card" name='Memory game' description='Игра на запоминание с переворотом карточек. Сделана на React.js' img={cardGame} link='https://walkaway1919.github.io/card-game/'/>
-                    <Card className="works__card" name='Todo list' description='Планировщик заданий с фильтрацией и кастомной системой drug-ang-drop на ванильном JS' link='https://walkaway1919.github.io/todolist/' img={todoList}/>
-                    <Card className={cn("works__card", ["works__card--big"])} big={true} name='Blog' description='Банковский блог на Next.js в процессе разработки' img={blog}/>
+                    <Card className="works__card" name='Weather forecast' description='Прогноз погоды на React с использованием API OpenWeatherMap' img={weatherApp} link='https://walkaway1919.github.io/weather_report/'/>
+                    <Card className="works__card" name='Memory game' description='Игра на запоминание с переворотом карточек. Сделана на React' img={cardGame} link='https://walkaway1919.github.io/card-game/'/>
+                    <Card className="works__card" name='Todo list' description='Фильтрация и кастомная система drug-ang-drop на ванильном JS' link='https://walkaway1919.github.io/todolist/' img={todoList}/>
+                    <Card className={cn("works__card", ["works__card--big"])} big={true} name='Blog' description='Блог финансовой тематики на Next.js. Сейчас еще в разработке' img={blog}/>
                     
                 </div>
                 
