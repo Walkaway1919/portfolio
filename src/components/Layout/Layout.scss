@@ -18,7 +18,10 @@
     }
     @media screen and (max-width: 800px) {
         grid-template-columns: 20px minmax(280px, 760px) 20px; 
+        gap: 20px 0px; 
+        padding: 40px 0 0 0;
     }
+
 }
 
 .main{
